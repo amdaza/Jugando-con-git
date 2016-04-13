@@ -6,15 +6,19 @@ Ejercicio 1 de prácticas de Git
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
 $ git reset --hard HEAD~1
+
 Reset para mover tanto el puntero HEAD como la rama styled.
+
 --hard para perder los cambios realizados en el working copy
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 
 $ git reflog
+
 Para ver el historial de movimientos de HEAD.
 
 $ git reset 8bf779e
+
 Para ir al último commit.
 
 - El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
@@ -52,13 +56,16 @@ $ git branch -D title
 - ¿Qué comando o comandos utilizaste en el paso 30?
 
 $ git reflog
+
 $ git reset --hard 131b06b
 
 - ¿Qué comando o comandos usaste en el paso 32?
 
 $ git reflog
+
 $ git checkout 51249ac
 
 - ¿Qué comando o comandos usaste en el punto 33?
 $ git reflog
+
 $ git checkout 131b06b
